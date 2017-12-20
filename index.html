@@ -9,6 +9,116 @@
 
 <body>
 
+    <h1>Homework 10</h1>
+    <h2>jQuery Form Validation</h2>
+
+
+    <div id="content">
+
+
+        <form name="order" id="order" action="#" method="post">
+
+
+            <div id="required">All fields are required.
+                <br/>
+            </div>
+            <div>
+
+
+                <label for="first">First Name:</label>
+                <input type="text" name="first" id="first" size="20">
+
+            </div>
+            <!-- end first name -->
+
+            <div>
+                <label for="last">Last Name:</label>
+                <input type="text" name="last" id="last" size="20">
+            </div>
+            <!-- end last name -->
+
+            <div>
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address" size="40">
+            </div>
+            <!-- end -->
+
+            <div>
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city" size="30">
+            </div>
+            <!-- end -->
+
+
+
+
+            <div>
+                <fieldset>
+                    <legend id="slegend">State</legend>
+                    <select name="state" id="state">
+                        <option value="-">--Select---</option>
+                        <option value="New York">New York</option>
+                        <option value="Oregon">Oregon</option>
+                        <option value="Washington">Washington</option>
+                        <option value="Washington">Virginia</option>
+                        <option value="Washington">Florida</option>
+                    </select>
+                </fieldset>
+
+            </div>
+            <!-- end  -->
+
+
+
+            <div>
+                <fieldset>
+                    <legend id="plegend">Product</legend>
+                    <select name="product" id="product">
+                        <option value="-">--Select---</option>
+                        <option value="New York">USB Mouse</option>
+                        <option value="Oregon">Mousepad</option>
+                        <option value="Washington">Flash Drive</option>
+                        <option value="Washington">Laptop Case</option>
+                        <option value="Washington">Phone Charger</option>
+                    </select>
+                </fieldset>
+
+            </div>
+            <!-- end  -->
+
+
+            <div>
+                <label for="quantity">Quantity:</label>
+                <input type="text" name="quantity" id="quantity" size="5">
+            </div>
+            <!-- end  -->
+
+
+            <div>
+                <fieldset>
+                    <legend>Can we contact you?</legend>
+
+                    <input type="radio" name="contact" value="yes" id="yes" checked>
+                    <label for="male">Yes</label>
+                    <input type="radio" name="contact" value="no" id="no">
+                    <label for="female">No</label>
+                </fieldset>
+            </div>
+
+            <div>
+                <input type="checkbox" name="terms"   id="terms" checked>
+                <label for="male">I accept the terms &amp; conditions.</label>
+
+            </div>
+
+            <div>
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+
+
+    </div>
+
   <div class="panel-footer">
     <p>Created by Stewart ilondanga <em>copyright 2017</em></p>
   </div>
