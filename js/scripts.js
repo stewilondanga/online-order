@@ -21,7 +21,7 @@
 
           /* check if fields empty: DO    */
           /*         THRoW ERRORS         */
-   
+
           var first = $('#first').val();
           if (first === '') {
               $('#first').css('border', '2px solid red');
@@ -53,7 +53,7 @@
           }
 
 
-          //  City
+          //  Region
           var city = $('#city').val();
           if (city === '') {
               $('#city').css('border', '2px solid red');
