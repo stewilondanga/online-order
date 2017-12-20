@@ -9,3 +9,47 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
+
+h1 {font-size: 20px;}
+h2 {font-size: 40px;}
+h1,h2{text-align: center;}
+
+button{ padding: 20px; font-size: 20px; clear: both; min-width: 250px; color: white; box-shadow: 1px 1px 6px black;  }
+
+button:hover{ cursor: pointer;}
+
+.two-thirds{width: 70%; float: left;}
+.one-third{width: 20%; float: left;  background: rgba(255,255,255,.4); padding: 30px; border-radius: 50px;}
+
+#content{
+    margin: 5% 20%;
+    padding: 30px;
+    background: rgba(255,255,255,.4);
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+        input,
+        fieldset {
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        #required {
+            color: red;
+            margin-bottom: 20px;
+            border: solid 1px grey;
+            padding: 20px;
+        }
+        fieldset {
+            padding: 10px;
+        }
+        #terms {
+            margin-right: 15px;
+        }
+        .error {
+            color: red;
+        }
+        label {
+            margin-right: 20px;
+        }
