@@ -115,15 +115,9 @@
           var state = $('#state').val();
           logger('state = ' + state);
 
-
-
-
           // this will not submit the form
           // note the parameter in the .ready function
           // use this to stop the form in it's tracks. That means don't submit it.
-
-
-
 
           evt.preventDefault();
 
