@@ -96,12 +96,7 @@
 
           }
 
-
-          /************************/
-          /*                      */
           /* RADIO/CHECK BOXES    */
-          /*                      */
-          /************************/
 
           // radio button value
           $(':radio:checked').each(function() {
