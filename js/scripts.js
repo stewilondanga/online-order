@@ -19,13 +19,9 @@
           $("splegend").html("<span class=''>State </span>");
           $("#plegend").html("<span class=''>Product  </span>");
 
-          /********************************/
-          /*                              */
           /* check if fields empty: DO    */
           /*         THRoW ERRORS         */
-          /********************************/
-
-          // check first name field
+   
           var first = $('#first').val();
           if (first === '') {
               $('#first').css('border', '2px solid red');
