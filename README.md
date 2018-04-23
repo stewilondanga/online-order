@@ -13,6 +13,8 @@ when the site ( https://stewilondanga.github.io/online-order/ ) is loaded a vali
 the form has specific details required for submitting an online order and all fields are required in order for data to be 
 submitted
 
+There are two drop down lists for selecting region and product
+
 However there is no database linked so the submit button is inactive but the check box before the button displays status of the
 form upon reaching that data entry point
 
