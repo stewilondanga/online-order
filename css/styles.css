@@ -1,7 +1,3 @@
-h2{
-  color: #eea30d;
-}
-
 body {
   text-align: center;
   font-family: courier;
@@ -11,8 +7,12 @@ body {
 }
 
 
-h1 {font-size: 20px;}
-h2 {font-size: 40px;}
+h1 {font-size: 20px;
+    color: #eea30d;
+}
+h2 {font-size: 40px;
+    color: #F7531D;
+}
 h1,h2{text-align: center;}
 
 button{ padding: 20px; font-size: 20px; clear: both; min-width: 250px; color: white; box-shadow: 1px 1px 6px black;  }
